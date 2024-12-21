@@ -12,8 +12,24 @@
   "contributes": {
     "languages": [{
       "id": "asm",
-      "aliases": ["Assembly", "asm"],
-      "extensions": [".asm"],
+      "aliases": ["Assembly", 
+                  "asm", 
+                  "x86 Assembly", 
+                  "x86", 
+                  "Assembly Language", 
+                  "Intel ASM", 
+                  "MASM", 
+                  "NASM", 
+                  "TASM"],
+      "extensions": [
+        ".asm", 
+        ".s", 
+        ".S", 
+        ".a51", 
+        ".inc", 
+        ".nasm", 
+        ".x86", 
+        ".lst"],
       "configuration": "./language-configuration.json"
     }],
     "grammars": [{
