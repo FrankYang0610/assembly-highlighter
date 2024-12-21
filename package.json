@@ -1,0 +1,25 @@
+{
+  "name": "assembly-highlighter",
+  "displayName": "assembly-highlighter",
+  "description": "A highlighter for the Assembly Languages",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "asm",
+      "aliases": ["Assembly", "asm"],
+      "extensions": [".asm"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "asm",
+      "scopeName": "source.asm",
+      "path": "./syntaxes/asm.tmLanguage.json"
+    }]
+  }
+}
